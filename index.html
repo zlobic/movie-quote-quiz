@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 <body>
     
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/rCZ3SN65kIs?start=76" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <script src="/js/main.js"></script>
+<div class="showContainer">
+   <form class="quizForm">
+    <div class="wrapper"><label class="labels">Title</label><input type="text" value="" class="titleInput"></div>
+    <div class="wrapper"><label class="labels">Main Actor</label><input type="text" value="" class="actorInput"></div>
+    <div class="wrapper"><label class="labels">Director</label><input type="text" value="" class="titleInput"></div>
+    <button type="button">Submit</button>
+   </form> 
+</div>
+
+
+    <script src="./js/interaction.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
